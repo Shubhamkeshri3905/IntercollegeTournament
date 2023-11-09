@@ -1,0 +1,276 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container
+{
+    /* background-color: yellow;
+    border: 1px solid red; */
+    display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 80px 1000px 500px 700px 400px 200px;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "hd hd" "left1 right1" "left2 right2" "left3 right3" "content content"  "ft ft";
+  grid-gap: 10px;
+   
+}
+/* .box1
+{
+    border: 1px solid rgb(92, 94, 92) ;
+    background-color: aqua;
+} */
+#boxa
+{
+    grid-area: hd;
+  
+    
+}
+#boxb
+{
+    grid-area: left1;
+    
+}
+#boxc
+{
+    grid-area: right1;
+   
+    
+}
+
+#boxd
+{
+    grid-area: left2;
+}
+#boxe
+{
+    grid-area: right2;
+}
+#boxf
+{
+    grid-area: left3;
+}
+#boxg
+{
+    grid-area: right3;
+}
+#boxh
+{
+    grid-area: content;
+}
+#boxi
+{
+    grid-area: ft;
+    background-color: #363434;
+  padding: 20px;
+  border: 1px solid #635e5e;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #34495e;
+}
+label.logo
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    padding: 0 40px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1px;
+    line-height: 80px;
+    
+}
+nav a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px ;
+    border-radius: 3px;
+} 
+.head
+{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.para
+{
+    padding: 10px;
+}
+#boxc{
+   display: grid;
+   grid-template-rows: 1fr 1fr ;
+   grid-template-columns: 100%
+}
+.box1 img{
+   width: 100%;
+    height: 70%;
+    
+}
+.box2 img{
+    width: 50%;
+    height: 50%;
+    
+}
+/* Style for the footer element */
+footer {
+    margin-top: 20px;
+  }
+  
+  /* Style for the copyright text */
+  footer p:first-child {
+    font-size: 14px;
+    color: #e3d9d9;
+  }
+  
+  /* Style for the address text */
+  footer p:last-child {
+    font-size: 12px;
+    color: #ded4d4;
+    margin-top: 10px;
+  }
+  
+  /* Style for the feedback button */
+  .feedback {
+    margin-top: 20px;
+  }
+  
+  #feedback-button {
+    background-color: #90bef0;
+    color: #ded3d3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  #feedback-button:hover {
+    background-color: #0056b3;
+  }
+  /* Style for the box1 element */
+.boxh {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Style for the heading */
+.head {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style for paragraphs */
+.para {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Style for links */
+.para a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.para a:hover {
+    text-decoration: underline;
+}
+
+/* Style for subheadings */
+.subhead {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Additional styling as needed */
+#img1, #img2
+{
+  margin: 10px;
+    padding: 10px;
+   
+}
+#img1
+{
+    height: 500px;
+}
+#img2
+{
+    height: 400px;
+}
+#img4
+{
+  margin: 10px;
+    padding: 10px;
+    height: 700px;
+    
+   
+}
+
+
+#img5
+{
+    margin:5px;
+    padding: 10px;
+}
+#img6
+{
+    margin: 5px;
+    padding: 5px;
+    height: 84%;
+}
+.subhead
+{
+    text-align: center;
+    color: #0056b3;
+}
+.para{
+    text-align: center;
+}
+
+/* Add this CSS for animation */
+.rule-link {
+    font-size: 20px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.rule-link:hover {
+    color: #0056b3;
+    transform: scale(1.05); /* Enlarge the text on hover */
+}
+

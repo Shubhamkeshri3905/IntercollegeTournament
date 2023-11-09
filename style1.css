@@ -1,0 +1,120 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav #logo {
+  width: 60px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+/* Main content styles */
+main {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Left section styles */
+.box {
+  width: 65%;
+}
+
+.box h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.box p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Right section styles */
+.right {
+  width: 30%;
+}
+
+.right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* About section styles */
+.aboutsection h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.aboutsection h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Record section styles */
+.recordsection h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.rightside img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contact section styles */
+#help h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
